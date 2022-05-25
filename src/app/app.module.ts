@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListaVehiculosComponent } from './lista-vehiculos/lista-vehiculos.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListaVehiculosComponent
+    ListaVehiculosComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
